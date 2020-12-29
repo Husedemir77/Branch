@@ -1,0 +1,176 @@
+[1609180472.240][INFO]: Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 22028
+[1609180472.240][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1609180472.860][INFO]: [7009677422772e90309bca7a7fa96a77] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\User\\IdeaProjects\\SelenideGrupCalismasiMitAhmetBey\\build\\downloads\\1609180471792_6132_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\User\\IdeaProjects\\SelenideGrupCalismasiMitAhmetBey\\build\\downloads\\1609180471792_6132_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1609180472.885][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\User\\IdeaProjects\\SelenideGrupCalismasiMitAhmetBey\\build\\downloads\\1609180471792_6132_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1609180472.897][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1609180472.900][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1609180472.901][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\User\AppData\Local\Temp\scoped_dir3284_1479076076" data:,
+[1609180473.337][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1609180475.343][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1609180477.359][INFO]: [7009677422772e90309bca7a7fa96a77] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "87.0.4280.88",
+      "chrome": {
+         "chromedriverVersion": "87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761})",
+         "userDataDir": "C:\\Users\\User\\AppData\\Local\\Temp\\scoped_dir3284_1479076076"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:60341"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "7009677422772e90309bca7a7fa96a77"
+}
+[1609180477.384][INFO]: [7009677422772e90309bca7a7fa96a77] COMMAND MaximizeWindow {
+
+}
+[1609180477.384][INFO]: Waiting for pending navigations...
+[1609180477.387][INFO]: Done waiting for pending navigations. Status: ok
+[1609180477.492][INFO]: Waiting for pending navigations...
+[1609180477.494][INFO]: Done waiting for pending navigations. Status: ok
+[1609180477.494][INFO]: [7009677422772e90309bca7a7fa96a77] RESPONSE MaximizeWindow {
+   "height": 1056,
+   "width": 1936,
+   "x": -8,
+   "y": -8
+}
+[1609180477.498][INFO]: [7009677422772e90309bca7a7fa96a77] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1609180477.499][INFO]: [7009677422772e90309bca7a7fa96a77] RESPONSE SetTimeouts
+[1609180477.507][INFO]: [7009677422772e90309bca7a7fa96a77] COMMAND Navigate {
+   "url": "http://opencart.abstracta.us/"
+}
+[1609180477.507][INFO]: Waiting for pending navigations...
+[1609180477.508][INFO]: Done waiting for pending navigations. Status: ok
+[1609180478.082][INFO]: Waiting for pending navigations...
+[1609180480.114][INFO]: Done waiting for pending navigations. Status: ok
+[1609180480.114][INFO]: [7009677422772e90309bca7a7fa96a77] RESPONSE Navigate
+[1609180480.124][INFO]: [7009677422772e90309bca7a7fa96a77] COMMAND Quit {
+
+}
+[1609180480.152][INFO]: [7009677422772e90309bca7a7fa96a77] RESPONSE Quit
