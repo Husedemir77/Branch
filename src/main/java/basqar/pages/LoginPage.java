@@ -16,6 +16,7 @@ public class LoginPage implements LocatorsBy{     // bircok class implements ede
         System.out.println(password);
         System.out.println(password.getSayi());   // enum class tan geldi
         System.out.println(password.getStr());
+        System.out.println();
 
 
 
